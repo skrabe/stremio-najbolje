@@ -1,0 +1,28 @@
+{
+ "id": "com.skrabe.najbolje",
+ "version": "1.0.0",
+ "name": "Najbolje svih vremena",
+ "description": "IMDb Top 250 filmova i serija.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "movie",
+  "series"
+ ],
+ "idPrefixes": [
+  "tt"
+ ],
+ "catalogs": [
+  {
+   "type": "movie",
+   "id": "najbolji-filmovi",
+   "name": "Najbolji filmovi svih vremena"
+  },
+  {
+   "type": "series",
+   "id": "najbolje-serije",
+   "name": "Najbolje serije svih vremena"
+  }
+ ]
+}
